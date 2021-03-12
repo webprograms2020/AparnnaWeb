@@ -1,0 +1,62 @@
+<html>
+<body>
+<center>
+<h2>JacaScriptpredefined functions in string and math object</h2>
+<p>MCA Most integrated computer application course</p>
+<p id="a"></p>
+<p id="b"></p>
+<script>
+var txt = "team MCA is one of the energetic department in the campus";
+var txt1="and also in the state";
+var txt3=" team MCA!    ";
+var sln = txt.length;
+var res=txt.slice(2,5);
+var rev=txt.slice(-12,-6);
+var sub=txt.substring(10,17);
+var sst=txt.substr(21,10);
+var n=txt.replace("campus","college");
+var text1=txt.toUpperCase();
+var text2=txt.toLowerrCase();
+var text3=txt.concat("",txt1);
+var text4=(txt.trim());
+var text5=txt.charAt(16);
+var text6=txt.charCodeAt(16);
+var arr=txt.split(" ");
+var sea=txt.search("one");
+var pos=txt.indexOf("the");
+var pol=txt.lastIndexOf("the");
+document.getElamentById("a").innerHTML=
+"<p><b>String Length:</b>" +sln+ "</p>"+
+"<p><b>Slice()Method:</b>"+res+"</p>"+
+"<p><b>Slice()Another Method:</b>"+rev+"</p>"+
+"<p><b>substring()Method:</b>"+sub+"</p>"+
+"<p><b>substr()Method:</b>"+sst+"</p>"+
+"<p><b>Replacing String content:</b>"+n+"</p>"+
+"<p><b>Converting top Upper Case:</b>"+text1+"</p>"+
+"<p><b>Converting top Lower Case:</b>"+text2+"</p>"+
+"<p><b>Concat()Method:</b>"+text3+"</p>"+
+"<p><b>String.trim()Method:</b>"+text4+"</p>"+
+"<p><b>charAt()Method:</b>"+text5+"</p>"+
+"<p><b>charCodeAt()Method:</b>"+text6+"</p>"+
+"<p><b>Converting a string to an array:</b>"+arr[3]+"</p>"+
+"<p><b>Searching for astring in a string:</b>"+sea+"</p>"+
+"<p><b>String in a string lastindex()method:</b>"+pol+"</p>"+
+"<p><b>String in a string indexOf()method:</b>"+pos+"</p>"+
+document.getElamentById("b").innerHTML=
+"<p><b>Math.PI:</b>"+Math.PI+"</p>"+
+"<p><b>Math.round(4.4):</b>"+Math.round(4.4)+"</p>"+
+"<p><b>Math.pow(3,2):</b>"+Math.pow(3,2)+"</p>"+
+"<p><b>Math.sqrt(49):</b>"+Math.sqrt(49)+"</p>"+
+"<p><b>Math.abs(-3.9):</b>"+Math.abs(-3.9)+"</p>"+
+"<p><b>Math.celi(3.4):</b>"+Math.celi(3.4)+"</p>"+
+"<p><b>Math.floor(6.7):</b>"+Math.floor(6.7)+"</p>"+
+"<p><b>Math.exp(1):</b>"+Math.exp(1)+"</p>"+
+"<p><b>Math.sin(90*Math.PI/180):</b>"+Math.sin(90*Math.PI/180)+"</p>"+
+"<p><b>Math.cos(0*Math.PI/180):</b>"+Math.sin(0*Math.PI/180)+"</p>"+
+"<p><b>Math.min(0,170,30,20,-8,-500):</b>"+Math.min(0,170,30,20,-8,-500)+"</p>"+
+"<p><b>Math.max(0,170,30,20,-8,-500):</b>"+Math.max(0,170,30,20,-8,-500)+"</p>"+
+"<p><b>Math.random():</b>"+Math.random()+"</p>"+
+</script>
+</center>
+</body>
+</html>
